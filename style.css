@@ -108,12 +108,14 @@ ul li a:hover {
     }
     .btn {
         padding: 10px 25px;
+        width: 95px;
+        font-size: 1rem;
     }
     ul li a {
         padding: 10px 25px;
         width: 75px;
         font-size: 0.8rem;
-        margin-top: 70px;
+        margin-top: 50px;
     }
 }
 .menu-button{
@@ -129,7 +131,9 @@ ul li a:hover {
         padding-top: 25px;
     }
     ul li a{
-        padding: 5px 15px;
+        padding: 0px 5px;
+        font-size: 2rem;
+        margin: 5px;
     }
 }
 @media (max-width: 426px) {
@@ -162,6 +166,7 @@ ul li a:hover {
 @media (max-width: 376px) {
     .title h1 {
         font-size: 2rem;
+        margin: 0px;
     }
     .btn {
         padding: 10px 5px;
@@ -190,8 +195,7 @@ ul li a:hover {
 
 @media (max-width: 250px) {
     ul li a {
-        padding: 9px 20px;
-        font-size: 0.5rem;
-        width: 46px;
+        padding: 0px 5px;
+        font-size: 1.5rem;
     }
 }
