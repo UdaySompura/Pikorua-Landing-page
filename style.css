@@ -131,9 +131,9 @@ ul li a:hover {
         padding-top: 25px;
     }
     ul li a{
-        padding: 0px 5px;
+        padding: 0px 10px;
         font-size: 2rem;
-        margin: 5px;
+        margin: 0px;
     }
 }
 @media (max-width: 426px) {
@@ -175,6 +175,7 @@ ul li a:hover {
     }
     ul li a {
         font-size: 2rem;
+        margin: 0px;
     }
 }
 
@@ -189,13 +190,15 @@ ul li a:hover {
     }
     ul li a {
         /* padding: 0px 10px; */
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        margin: 0px;
     }
 }
 
 @media (max-width: 250px) {
     ul li a {
-        padding: 0px 5px;
+        padding: 0px 10px;
         font-size: 1.5rem;
+        margin: 0px;
     }
 }
